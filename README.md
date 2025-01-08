@@ -6,7 +6,7 @@ This project demonstrates how to create an **Automated Email Sender** using Pyth
 
 - Sends plain text and HTML emails
 - Secure connection with SSL
-- Handles common errors like invalid password or invalic recipient email address
+- Handles common errors like invalid passwords or invalid recipient email addresses
 
 ## Requirements
 
