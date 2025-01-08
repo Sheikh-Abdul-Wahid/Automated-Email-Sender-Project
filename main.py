@@ -3,8 +3,8 @@ import ssl     # Importing the ssl module for secure connections
 from email.message import EmailMessage # Importing the EmailMessage class to create email content
 
 
-sender_email = "sender_email@gmail.com"
-receiver_email = "receiver_email@gmail.com"
+sender_email = "sender_email@gmail.com"      # Replace with your email address
+receiver_email = "receiver_email@gmail.com"  # Replace with receiver email address
 subject = "Automated Email Sender Project"
 body = """This is an Automated Email Sender Project using Python.
 		  The project allows you to send automated emails with custom content, all from within Python.
