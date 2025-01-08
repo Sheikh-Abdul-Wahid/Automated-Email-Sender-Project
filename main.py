@@ -7,7 +7,7 @@ sender_email = "sender_email@gmail.com"      # Replace with your email address
 receiver_email = "receiver_email@gmail.com"  # Replace with receiver email address
 subject = "Automated Email Sender Project"
 body = """This is an Automated Email Sender Project using Python.
-		  The project allows you to send automated emails with custom content, all from within Python.
+	  The project allows you to send automated emails with custom content, all from within Python.
           I used Gmail's SMTP server and secured the connection using SSL"""
 
 # Create a new email message
@@ -15,7 +15,7 @@ message = EmailMessage()
 message["From"] = sender_email
 message["To"] = receiver_email
 message["Subject"] = subject
-# message.set_content(body)     # Set the plain text content of the email intead of HTML format
+# message.set_content(body)     # To send plain text content of the email instead of HTML format
 
 # Creating an HTML version of the email content if you like to send email in HTML format
 html = f"""<!DOCTYPE html>
@@ -51,5 +51,5 @@ while True:
         print("Incorrect App Password. Please try again.")  # Error message for wrong password
 
     except smtplib.SMTPRecipientsRefused:
-        print("Invalid Email address. Please check and try again.") # Error message for Invalid Email
+        print("Invalid Email Address. Please check and try again.") # Error message for Invalid Email Address 
   
